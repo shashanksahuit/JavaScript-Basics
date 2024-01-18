@@ -30,6 +30,29 @@ Data type in JS -->
 (typeof undeifne );//undefined
 (typeof null );//Object 
 
+**********************************************************************************************************************************************************
+DataType conversion 
+
+let score = 33
+console.log(typeof score);//number
+
+let scoreinString = "33";
+console.log(typeof score);//string
+
+let ScoreInNumber = Number(scoreinString);
+console.log(typeof ScoreInNumber);//number or NAN or Zero[in case of null]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
