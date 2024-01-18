@@ -1,1 +1,36 @@
+Let vs Var vs Const 
+Always use --> LET [used only for scope {} things ]
+Always Aviod var  --> Global Scope and anyone can change at any point of time ,bcoz if someone gives the same name to variable and changed its value then it will change in whole application 
+Const --> to define the constant 
+
+
+JavaScript can be RUN --> Browser and NOdeJs [Engine to run the JS code]
+
+"use strict"; --> iska matlab ke ab hum JS ke latest feature use krke JS code linkenge so you can write  this line on first line of JS file. 
+
+code readyBility should be high --> ; in the end of line you can avoid 
+ts39 --> actually document of JS 
+
+let name ="Sahi";
+let age  = 18 
+let isLoggedIn  = false 
+
+Data type in JS -->
+//number --> 2 to power 53 
+//bigInt 
+//String
+//boolean --> true/false 
+//null --> stand alone value 
+//undefine --> value not defined 
+//symbol --> unique define krne ke liye 
+//Object 
+
+
+(typeof age );//number
+(typeof undeifne );//undefined
+(typeof null );//Object 
+
+
+
+
 
